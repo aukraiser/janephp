@@ -6,6 +6,8 @@ inputs:
         description: 'Options to pass to the cs fix command'
         required: false
 outputs:
+    results:
+        description: 'Results ouput of the php cs fix command'
 
 runs:
     using: 'docker'
